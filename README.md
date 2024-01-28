@@ -25,7 +25,7 @@ This project is a code challenge that involves generating diagnostic, progress, 
 3. Install dependencies:
    
    ```bash
-   cmposer install
+   composer install
 
 4. Run the main script:
    ```bash
