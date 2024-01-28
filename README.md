@@ -49,6 +49,9 @@ To run PHPUnit tests, use the following command:
    ```bash
    vendor/bin/phpunit Tests/FeedbackReportGeneratorTest.php
 
+## Video
+See the following link to see how to set up and how to use this CLI tool:
+https://www.loom.com/share/7bb90ca4fbe44a2a9880150f80475a8f
 
 ## Project Structure
 
