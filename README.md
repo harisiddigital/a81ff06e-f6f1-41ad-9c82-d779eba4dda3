@@ -2,6 +2,8 @@
 
 This project is a code challenge that involves generating diagnostic, progress, and feedback reports based on student assessment data. Provided to me on behalf of ACER. 
 I have made some assumptions. To create Diagnostic report I have chosen the most recent response as that is what was shown in the example response in the challange. 
+
+## Automated Testing
 For automated testing I have configured github actions to run the 2 tests automatically. There reports can be seen in the "Actions" tab of this repository.
 
 ## Getting Started
