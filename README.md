@@ -17,7 +17,6 @@ For automated testing I have configured github actions to run the 2 tests automa
 
    ```bash
    git clone https://github.com/harisiddigital/a81ff06e-f6f1-41ad-9c82-d779eba4dda3.git
-
 2. Change into the project directory:
    
    ```bash
