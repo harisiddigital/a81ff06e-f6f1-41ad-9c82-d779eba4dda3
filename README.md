@@ -8,7 +8,7 @@ For automated testing I have configured github actions to run the 2 tests automa
 
 ### Prerequisites
 
-- PHP (>= 8.0)
+- PHP (>= 8.2)
 - Composer
 
 ### Installation
