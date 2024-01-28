@@ -37,6 +37,8 @@ class DiagnosticReportGenerator extends ReportGenerator
         foreach ($strandCounts as $strand => $countDetails) {
             echo "{$strand}: {$countDetails['correct']} out of {$countDetails['total']}\n";
         }
+        
+        // Return details as required in test cases
         return [
             'fullName' => $this->fullName,
             'assessmentName' => $this->assessmentName,

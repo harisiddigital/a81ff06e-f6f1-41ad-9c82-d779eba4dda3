@@ -38,5 +38,13 @@ class FeedbackReportGenerator extends ReportGenerator
                 }
             }
         }
+        // Return details as required in test cases
+        return [
+            'fullName' => $this->fullName,
+            'assessmentName' => $this->assessmentName,
+            'completedDate' => $this->completedDate,
+            'rawScore' => $rawScore,
+            'totalQuestions' => $totalQuestions,
+        ];
     }
 }
