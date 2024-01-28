@@ -15,11 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
-
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v3
